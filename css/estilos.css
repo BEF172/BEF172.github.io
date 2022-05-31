@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mensaje2 {
+    visibility: hidden;
+}
+
+.mensaje3 {
+    visibility: hidden;
+}
+
+.mensaje4 {
+    visibility: hidden;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 30px;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.logo a:hover {
+    color: blueviolet;
+}
+
+.title {
+    text-align: center;
+    padding: -500px;
+}
+
+.img {
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+    padding: 20px;
+}
+
+.discord {
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.discord a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.header {
+    height: 10vh !important;
+    background: url(img/bot.png) no-repeat center;
+    background-size: cover;
+}
+
+.A {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+h5 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    width: 350px;
+    height: 80px;
+    background: black;
+}
+
+.saludos {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+
+}
+
+.saludos {
+    position: relative;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.saludos:hover {
+    color: blueviolet;
+}
+
+.invitacion {
+    padding: 15px;
+    height: 59px;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+}
+
+.invitacion {
+
+    position: relative;
+    padding: 20px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.invitacion:hover {
+    color: blueviolet;
+}
+
+@media screen and (max-height: 800px) {
+    .mensaje {
+        font-size: 0;
+
+    }
+
+    .mensaje2 {
+        text-align: center;
+    text-transform: uppercase;
+        visibility: visible;
+    }
+    .mensaje2{
+        
+    text-transform: uppercase;
+        vertical-align:top;
+        
+        margin-top: -45px;
+    }
+    .mensaje3 {
+        text-align: center;
+    text-transform: uppercase;
+    visibility: hidden;
+    }
+    .img {
+        margin-top: -70px;
+    }
+
+}
