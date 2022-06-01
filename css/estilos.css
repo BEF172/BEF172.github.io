@@ -2,11 +2,11 @@
 
 body {
     font-family: 'Oswald', sans-serif;
+    background: url(/BOT/fondo.jpg);
+    background-size: cover;
 }
 
 .content {
-    background: url(/BOT/fondo.jpg);
-    background-size: cover;
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
@@ -145,7 +145,7 @@ h5 {
     color: white;
     padding: 15px;
     font-size: 20px;
-    width: 350px;
+    width: 1000px;
     height: 80px;
     background: black;
 }
@@ -205,6 +205,16 @@ h5 {
 }
 
 @media screen and (max-height: 600px) {
+    h5 {
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+        width: 450px;
+        height: 80px;
+        background: black;
+    }
     .mensaje {
         font-size: 0;
 
