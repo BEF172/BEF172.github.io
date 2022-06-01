@@ -10,6 +10,7 @@ body {
     overflow: hidden;
 }
 .mensaje{
+    font-size: 0;
 }
 
 .head {
