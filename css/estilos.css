@@ -65,11 +65,30 @@ body {
 .logo a:hover {
     color: blueviolet;
 }
+.mensaje {
+    font-size: 0;
 
-.title {
-    text-align: center;
-    padding: -500px;
 }
+
+.mensaje2 {
+    padding: 50px;
+    text-align: center;
+text-transform: uppercase;
+    visibility: visible;
+}
+.mensaje2{
+    
+text-transform: uppercase;
+    vertical-align:top;
+    
+    margin-top: -45px;
+}
+.mensaje3 {
+    text-align: center;
+text-transform: uppercase;
+visibility: hidden;
+}
+
 
 .img {
     align-items: center;
@@ -175,13 +194,14 @@ h5 {
     color: blueviolet;
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 600px) {
     .mensaje {
         font-size: 0;
 
     }
 
     .mensaje2 {
+        padding: 50px;
         text-align: center;
     text-transform: uppercase;
         visibility: visible;
@@ -199,7 +219,7 @@ h5 {
     visibility: hidden;
     }
     .img {
-        margin-top: -70px;
+        margin-top: -130px;
     }
 
 }
