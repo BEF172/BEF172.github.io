@@ -5,11 +5,26 @@ body {
 }
 
 .content {
+    background: url(/BOT/fondo.jpg);
+    background-size: cover;
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
+.Respuesta1{
+    text-transform: uppercase;
+}
+.Respuesta2{
+    text-transform: uppercase;
+}
+.Respuesta3{
+    text-transform: uppercase;
+}
+.Dueño{
+    text-transform: uppercase;
+}
 .mensaje{
+    
     font-size: 0;
 }
 
@@ -85,7 +100,6 @@ visibility: hidden;
     text-align: center;
     padding: -500px;
 }
-
 .img {
     align-items: center;
     text-align: center;
@@ -137,7 +151,7 @@ h5 {
 }
 
 .saludos {
-
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -155,7 +169,6 @@ h5 {
     outline: none;
     cursor: pointer;
     transition: .5s;
-
 }
 
 .saludos:hover {
@@ -165,7 +178,7 @@ h5 {
 .invitacion {
     padding: 15px;
     height: 59px;
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -179,7 +192,7 @@ h5 {
 .invitacion {
 
     position: relative;
-    padding: 20px 25px;
+    padding: 15px 12px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -188,6 +201,7 @@ h5 {
 
 .invitacion:hover {
     color: blueviolet;
+    
 }
 
 @media screen and (max-height: 600px) {
