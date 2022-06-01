@@ -88,7 +88,10 @@ text-transform: uppercase;
 text-transform: uppercase;
 visibility: hidden;
 }
-
+.title {
+    text-align: center;
+    padding: -500px;
+}
 
 .img {
     align-items: center;
@@ -219,7 +222,7 @@ h5 {
     visibility: hidden;
     }
     .img {
-        margin-top: -130px;
+        margin-top: -70px;
     }
 
 }
