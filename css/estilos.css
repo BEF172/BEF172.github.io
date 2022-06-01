@@ -9,17 +9,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
-
-.mensaje2 {
-    visibility: hidden;
-}
-
-.mensaje3 {
-    visibility: hidden;
-}
-
-.mensaje4 {
-    visibility: hidden;
+.mensaje{
 }
 
 .head {
@@ -80,7 +70,12 @@ text-transform: uppercase;
     
     margin-top: -45px;
 }
-.mensaje3 {
+.mensaje3{
+    text-align: center;
+text-transform: uppercase;
+visibility: hidden;
+}
+.mensaje4{
     text-align: center;
 text-transform: uppercase;
 visibility: hidden;
@@ -218,8 +213,13 @@ h5 {
     text-transform: uppercase;
     visibility: hidden;
     }
+    .mensaje4{
+        text-align: center;
+    text-transform: uppercase;
+    visibility: hidden;
+    }
     .img {
-        margin-top: -70px;
+        margin-top: -100px;
     }
 
 }
