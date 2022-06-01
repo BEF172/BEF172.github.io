@@ -145,7 +145,7 @@ h5 {
     color: white;
     padding: 15px;
     font-size: 20px;
-    width: 1000px;
+    width: 450px;
     height: 80px;
     background: black;
 }
@@ -205,16 +205,6 @@ h5 {
 }
 
 @media screen and (max-height: 800px) {
-    h5 {
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-        padding: 15px;
-        font-size: 20px;
-        width: 450px;
-        height: 80px;
-        background: black;
-    }
     .mensaje {
         font-size: 0;
 
