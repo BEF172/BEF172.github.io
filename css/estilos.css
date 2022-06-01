@@ -204,7 +204,7 @@ h5 {
     
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 800px) {
     h5 {
         text-transform: uppercase;
         text-align: center;
